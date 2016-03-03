@@ -139,6 +139,7 @@ public class GravityBoxSettings extends Activity implements GravityBoxResultRece
     public static final String PREF_KEY_POWERMENU_SCREENRECORD = "pref_powermenu_screenrecord";
     public static final String PREF_KEY_POWERMENU_DISABLE_ON_LOCKSCREEN = "pref_powermenu_disable_on_lockscreen";
     public static final String PREF_KEY_POWERMENU_EXPANDED_DESKTOP = "pref_powermenu_expanded_desktop";
+    public static final String PREF_KEY_VIBRATE_CAMERA_GESTURE = "pref_vibrate_camera_gesture";
 
     public static final String PREF_KEY_VOL_KEY_CURSOR_CONTROL = "pref_vol_key_cursor_control";
     public static final int VOL_KEY_CURSOR_CONTROL_OFF = 0;

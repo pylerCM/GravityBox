@@ -582,7 +582,7 @@ public class ModLedControl {
                      new XC_MethodHook() {
                 @Override
                 protected void beforeHookedMethod(MethodHookParam param) throws Throwable {
-                    if (mVibrateCameraGesture) param.setResult(null);
+                    if (!mVibrateCameraGesture) param.setResult(null);
                 }
             });
 
